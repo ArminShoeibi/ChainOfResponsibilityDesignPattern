@@ -1,6 +1,4 @@
-﻿using ChainOfResponsibilityDesignPattern;
-
-SeniorManager seniorManager = new();
+﻿SeniorManager seniorManager = new();
 VicePresident vicePresident = new();
 seniorManager.SetSupervisor(vicePresident);
 
